@@ -35,6 +35,7 @@ The small schema language used by this package is referred to here as VSV.
 Use:
 
 - [SYNTAX.md](SYNTAX.md) for the current syntax reference
+- [BUILTINS.md](BUILTINS.md) for the current built-in validator and helper reference
 - [README_HISTORICAL_REFERENCE.md](README_HISTORICAL_REFERENCE.md) for the older
   historical README
 
