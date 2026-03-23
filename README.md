@@ -36,6 +36,7 @@ Use:
 
 - [SYNTAX.md](SYNTAX.md) for the current syntax reference
 - [BUILTINS.md](BUILTINS.md) for the current built-in validator and helper reference
+- [GENERATION.md](GENERATION.md) for transpile/documentation generation workflow
 - [README_HISTORICAL_REFERENCE.md](README_HISTORICAL_REFERENCE.md) for the older
   historical README
 
