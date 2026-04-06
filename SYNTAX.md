@@ -7,6 +7,14 @@ This document describes the current syntax of the VSV schema language used by:
 
 VSV is a small language for writing validator-factory trees.
 
+Use:
+
+- [README.md](README.md) for the narrative introduction
+- [BUILTINS.md](BUILTINS.md) for the current built-in validator vocabulary
+- [WORKFLOW.md](WORKFLOW.md) for the authoring workflow and source-of-truth rule
+- [TRACING-AND-REFINEMENT.md](TRACING-AND-REFINEMENT.md) for trace-based
+  diagnosis and runtime-guided refinement
+
 ## Mental Model
 
 Think of VSV as:
@@ -271,3 +279,5 @@ The authoritative implementation lives in:
 
 This document is a current syntax guide derived from that parser/compiler code
 and checked against real usage inside the repository.
+
+For the broader authoring/source-of-truth rule, use [WORKFLOW.md](WORKFLOW.md).

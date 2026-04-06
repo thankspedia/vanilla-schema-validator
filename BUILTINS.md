@@ -10,7 +10,11 @@ The authoritative implementation is the `standardValis` table in:
 
 Use:
 
+- [README.md](README.md) for the narrative introduction
 - [SYNTAX.md](SYNTAX.md) for the language syntax
+- [WORKFLOW.md](WORKFLOW.md) for the authoring workflow and source-of-truth rule
+- [TRACING-AND-REFINEMENT.md](TRACING-AND-REFINEMENT.md) for trace-based
+  diagnosis and refinement context
 - [README_HISTORICAL_REFERENCE.md](README_HISTORICAL_REFERENCE.md) for the older
   broader README and historical examples
 
@@ -241,8 +245,7 @@ It is mainly meaningful inside key-based validators such as `object(...)` and
 What it does:
 
 - if the key exists, validate that key's value with `subValidator`
-- if the key does not exist, temporarily treat it as `undefined` and validate
-  that instead
+- if the key does not exist, treat it as `undefined` for validation purposes
 
 This makes it useful for expressing "the key must exist" or "the key may exist
 but must satisfy a validator when present", depending on the sub-validator you
