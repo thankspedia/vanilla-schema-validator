@@ -153,6 +153,8 @@ For the reference side of the package, use:
 - [SYNTAX.md](SYNTAX.md) for the current grammar and script surface
 - [BUILTINS.md](BUILTINS.md) for the built-in validator vocabulary
 - [WORKFLOW.md](WORKFLOW.md) for the authoring workflow and source-of-truth rule
+- [TRACING-AND-REFINEMENT.md](TRACING-AND-REFINEMENT.md) for trace-based
+  diagnosis and runtime-guided refinement
 - [GENERATION.md](GENERATION.md) for the current generation commands
 - [README_HISTORICAL_REFERENCE.md](README_HISTORICAL_REFERENCE.md) for the
   older historical README
